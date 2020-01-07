@@ -14,6 +14,7 @@
 		18755C2123C484B900081F06 /* BeautifulLogin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18755C1F23C484B900081F06 /* BeautifulLogin.xcdatamodeld */; };
 		18755C2323C484BD00081F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18755C2223C484BD00081F06 /* Assets.xcassets */; };
 		18755C2623C484BD00081F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18755C2423C484BD00081F06 /* LaunchScreen.storyboard */; };
+		18755C3223C4A81F00081F06 /* SignInbackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18755C3123C4A81F00081F06 /* SignInbackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		18755C2223C484BD00081F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18755C2523C484BD00081F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18755C2723C484BD00081F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18755C3123C4A81F00081F06 /* SignInbackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInbackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				18755C2423C484BD00081F06 /* LaunchScreen.storyboard */,
 				18755C2723C484BD00081F06 /* Info.plist */,
 				18755C1F23C484B900081F06 /* BeautifulLogin.xcdatamodeld */,
+				18755C3123C4A81F00081F06 /* SignInbackground.swift */,
 			);
 			path = BeautifulLogin;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18755C1B23C484B900081F06 /* ViewController.swift in Sources */,
+				18755C3223C4A81F00081F06 /* SignInbackground.swift in Sources */,
 				18755C2123C484B900081F06 /* BeautifulLogin.xcdatamodeld in Sources */,
 				18755C1723C484B900081F06 /* AppDelegate.swift in Sources */,
 				18755C1923C484B900081F06 /* SceneDelegate.swift in Sources */,
