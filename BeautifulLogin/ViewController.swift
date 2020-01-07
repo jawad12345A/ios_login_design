@@ -9,13 +9,27 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var user_name_field: UITextField!
+    @IBOutlet weak var password_field: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        user_name_field.delegate = self
+        password_field.delegate = self
+      
     }
 
 
+}
+
+
+
+
+extension ViewController : UITextFieldDelegate{
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 }
 
 
